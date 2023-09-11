@@ -1,0 +1,70 @@
+* {
+     margin: 0;
+     padding: 0;
+     background-color:lightgray;
+}
+
+.main {
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+     font-family: sans-serif;
+     display: flex;
+}
+    
+    .logo {
+     width: 90px;
+     height: 90px;
+}
+
+.background {
+     background: url(assets/bgi.jpg);
+     background-position: center bottom;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow-y: none;
+     height: 100vh;
+     width: auto;
+     position: relative;
+     z-index: 1;
+}
+
+.navbar {
+     background-color: aqua;
+     width: 100%;
+}
+
+/* flexbox container */
+.container1 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 14px 16px;
+     color: white;
+     
+}
+
+section {
+     height: 30vh;
+     border: 1px solid grey;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.container {
+     margin-top: 10%;
+}
+
+/* logo styling */
+.logo {
+     font-size: 1.5cm;
+     text-decoration: none;
+     color: white;
+}
+
+.search2 {
+     background-color: blue;
+}
